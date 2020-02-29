@@ -12,17 +12,27 @@
     <div class="main">
         <div class="main__big-box">
             <form class="main__form" action="">
-                <label for="card-number">CARD NUMBER</label> <br>
-                <input type="number" id="card-number" maxlength="16" name="card-number" placeholder="0000 0000 0000 0000"> <br> 
-                <div class="main__form--middle">
-                    <label for="date">MM/YY</label> <br> 
-                    <input type="text" id="date" name="date" maxlength="5" placeholder="00/00">
-                    <label for="cvv">CVV CODE</label><br>
-                    <input type="number" id="cvv" name="cvv" maxlength="3" placeholder="000">
+                <div class="main__form-top">
+                    <label class="main__form-lable" for="card-number">CARD NUMBER</label> <br><br>
+                    <input type="number" id="card-number" maxlength="16" name="card-number" placeholder="0000 0000 0000 0000"> <br> 
                 </div>
-                <label for="name">CARDHOLDER FULL NAME</label><br>
-                <input type="text" id="name" name="name" placeholder="Name Surname">
-                <button class="main__form-button" type="submit">PAY NOW</button>
+                <div class="main__form--middle">
+                    <div class="main__form--middle-left">
+                        <label class="main__form-lable" for="date">MM/YY</label><br>
+                        <input type="text" id="date" name="date" maxlength="5" placeholder="00/00"> <br> <br>
+                    </div>
+                    <div class="main__form--middle-right">
+                        <label class="main__form-lable" for="cvv">CVV CODE</label><br>
+                        <input type="number" id="cvv" name="cvv" maxlength="3" placeholder="000"><br> <br>
+                    </div>
+                </div>
+                <div class="main__form-bottom">
+                    <label class="main__form-lable" for="name">CARDHOLDER FULL NAME</label><br><br>
+                    <input type="text" id="name" name="name" placeholder="Name Surname">
+                </div>
+                <div class="main__form-button--placement">
+                    <button class="main__form-button" type="submit">PAY NOW</button>
+                </div>
             </form>
         </div>
     <div class="main__small-box">
