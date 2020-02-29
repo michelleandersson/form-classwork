@@ -107,6 +107,33 @@ body {
     padding-bottom: 5px;
 }
 
+.main__form-button:hover {
+    background-color: #9DBEBB;
+    color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input {
+    background-color: #F4E9CD;
+    border: none;
+    border-bottom: 1px solid #77ACA2;
+}
+
+input:focus {
+    
+    border: none;
+}
+
+input:hover {
+    background-color: #77ACA2;
+    border: none;
+}
+
 .main__small-box {
     background-color: #77ACA2;
     flex-grow: 1;
@@ -121,3 +148,8 @@ body {
     left: -25%; 
     top: 20%;
 }
+
+
+
+
+
